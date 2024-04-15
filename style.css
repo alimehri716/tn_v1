@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Vazir-asdf;
+}
+@font-face {
+    font-family: Vazir-asdf;
+    src: url(font/Vazir-Medium.eot) format('eot');
+    src: url(font/Vazir-Medium.woff) format('woff');
+    src: url(font/Vazir-Medium.woff2) format('woff2');
+   
+}
+@font-face {
+    font-family: Vazir-asdg;
+    src: url(font/Vazir-Medium.eot) format('eot');
+    src: url(font/Vazir-Medium.woff) format('woff');
+    src: url(font/Vazir-Medium.woff2) format('woff2');
+    font-weight: bold ;
+    font-style:normal;
+}
+h1{
+    font-family: Vazir-asdg;
+    text-align: center;
+    margin: 20px;
+    text-transform: capitalize;
+    letter-spacing: -3px;
+    
+}
+h1.test:hover{
+    font-size: 60px;
+    color: rgb(57, 46, 64);
+    letter-spacing: 20px;
+    transition: .5s;
+    text-shadow: 8px 5px 5px rgb(75, 21, 161);
+    
+}
+h2{
+    font-size: 5px;
+    font-family: Vazir-asdf;
+}
+h2:hover{
+    font-size: 50px;
+    text-align: center;
+    color: rgb(66, 70, 65);
+    letter-spacing: 1px;
+    transition: 4s;
+    text-shadow: 5px 5px 5px red;
+}
+header{
+    width: 100%;
+    background-image: url(360_F_298901632_WE3bYSRoQbKtdDqDl4Xd2qgGbuGZNkLk.jpg);
+    height: 360px;
+    background-size:cover ;
+    background-attachment:fixed ;
+}
+button{
+    width: 100%;
+    background-image: url(360_F_298901632_WE3bYSRoQbKtdDqDl4Xd2qgGbuGZNkLk.jpg);
+    height: 360px;
+    background-size:cover ;
+    background-attachment:fixed ;
+}
